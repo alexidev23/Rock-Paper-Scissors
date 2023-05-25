@@ -2,7 +2,7 @@ export function Buttons () {
   const Botones = [
     {
       id: 1,
-      img: '../../public/icon-paper.svg',
+      img: '../assets/icon-paper.svg',
       name: 'Icono de Papel',
       color: '005792',
       top: '0',
@@ -12,7 +12,7 @@ export function Buttons () {
     },
     {
       id: 2,
-      img: '../../public/icon-scissors.svg',
+      img: '../assets/icon-scissors.svg',
       name: 'Icono de Tijera',
       color: 'eec60a',
       top: 0,
@@ -22,7 +22,7 @@ export function Buttons () {
     },
     {
       id: 3,
-      img: '../../public/icon-rock.svg',
+      img: '../assets/icon-rock.svg',
       name: 'Icono de Piedra',
       color: 'dc2f2f',
       bottom: '6',

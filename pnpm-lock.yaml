@@ -15,6 +15,7 @@ specifiers:
   postcss: ^8.4.23
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-icons: ^4.8.0
   react-modal: ^3.16.1
   standard: ^17.0.0
   tailwindcss: ^3.3.2
@@ -27,6 +28,7 @@ dependencies:
   '@mui/material': 5.13.2_rcyk3p3henusk3yzgoxovlybni
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.8.0_react@18.2.0
   react-modal: 3.16.1_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
@@ -2505,6 +2507,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.8.0_react@18.2.0:
+    resolution: {integrity: sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:

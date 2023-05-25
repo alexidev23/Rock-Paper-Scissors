@@ -1,9 +1,12 @@
+import { Paper } from './Paper'
+import { Scissors } from './Scissors'
+import { Rock } from './Rock'
+
 export function Buttons () {
   const Botones = [
     {
       id: 1,
-      img: '../assets/icon-paper.svg',
-      name: 'Icono de Papel',
+      component: <Paper />,
       color: '005792',
       top: '0',
       left: '123',
@@ -12,8 +15,7 @@ export function Buttons () {
     },
     {
       id: 2,
-      img: '../assets/icon-scissors.svg',
-      name: 'Icono de Tijera',
+      component: <Scissors />,
       color: 'eec60a',
       top: 0,
       right: '132',
@@ -22,8 +24,7 @@ export function Buttons () {
     },
     {
       id: 3,
-      img: '../assets/icon-rock.svg',
-      name: 'Icono de Piedra',
+      component: <Rock />,
       color: 'dc2f2f',
       bottom: '6',
       left: '266',
@@ -45,7 +46,7 @@ export function Buttons () {
             active:animate-ease-out'
           >
             <div className='bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center shadow-inner shadow-gray-600'>
-              <img src={boton.img} alt={boton.name} />
+              {boton.component}
             </div>
           </div>
         )

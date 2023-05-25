@@ -1,6 +1,6 @@
 import { Logo } from './components/Logo'
 import { GameBoard } from './components/GameBoard'
-import { Rules } from './components/Rules'
+import { Rules } from './components/Modal/Rules'
 
 function App () {
   return (
